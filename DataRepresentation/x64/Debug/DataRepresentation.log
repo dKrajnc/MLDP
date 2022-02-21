@@ -1,0 +1,3 @@
+﻿  DataPackage.cpp
+d:\mldp\datarepresentation\datapackage.cpp(796): warning C4715: 'lpmldata::DataPackage::isBalanced': not all control paths return a value
+  DataRepresentation.vcxproj -> D:\MLDP\x64\Debug\DataRepresentation.dll

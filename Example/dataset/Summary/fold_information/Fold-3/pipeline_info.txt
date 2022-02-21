@@ -1,0 +1,16 @@
+Fold parameters:
+
+Oversampling/auto=true
+Oversampling/m_neighboursNumber=1
+Oversampling/n_neighboursNumber=1
+Oversampling/neighboursNumber=1
+Oversampling/oversamplingPercentage=50
+Oversampling/type=RandomOversampling
+
+Undersampling/type=RandomUndersampling
+
+
+Action pipeline:
+
+1->OS
+1->US

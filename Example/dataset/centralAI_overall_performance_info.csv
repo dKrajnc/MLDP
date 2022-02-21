@@ -1,0 +1,13 @@
+File path: ;D:\MLDP\Example\dataset\/centralAI_overall_performance_info.csv
+
+
+
+;;TP;TN;FP;FN;
+;;33;16;24;7;
+
+ACC;0.6125
+SNS;0.825
+SPC;0.4
+NPV;0.695652
+PPV;0.578947
+

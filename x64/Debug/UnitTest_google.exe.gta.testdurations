@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>D:\DataSynth\x64\Debug\UnitTest_google.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="AccountTest.BankAccountStartsEmpty" Duration="1" />
+    <TestDuration Test="AccountTest.accountIsGreaterThenZero" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

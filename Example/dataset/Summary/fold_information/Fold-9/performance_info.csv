@@ -1,0 +1,13 @@
+File path: ;D:\MLDP\Example\dataset\/Summary/fold_information/Fold-9/performance_info.csv
+
+
+
+;;TP;TN;FP;FN;ROC;
+;;2;0;4;2;0.901388;
+
+ACC;0.25
+SNS;0.5
+SPC;0
+NPV;0
+PPV;0.333333
+

@@ -1,0 +1,19 @@
+Fold parameters:
+
+IsolationForest/treeCount=2980
+
+Oversampling/auto=true
+Oversampling/m_neighboursNumber=2
+Oversampling/n_neighboursNumber=1
+Oversampling/neighboursNumber=1
+Oversampling/oversamplingPercentage=100
+Oversampling/type=SMOTE
+
+Undersampling/type=RandomUndersampling
+
+
+Action pipeline:
+
+1->IF
+1->OS
+1->US

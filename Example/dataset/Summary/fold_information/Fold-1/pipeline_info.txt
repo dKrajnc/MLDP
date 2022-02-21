@@ -1,0 +1,23 @@
+Fold parameters:
+
+Undersampling/type=RandomUndersampling
+
+FeatureSelection/featureCount=23
+FeatureSelection/rankMethod=RSquared
+
+Oversampling/auto=true
+Oversampling/m_neighboursNumber=1
+Oversampling/n_neighboursNumber=1
+Oversampling/neighboursNumber=1
+Oversampling/oversamplingPercentage=1000
+Oversampling/type=SMOTE
+
+IsolationForest/treeCount=745
+
+
+Action pipeline:
+
+1->US
+1->FS
+1->OS
+1->IF

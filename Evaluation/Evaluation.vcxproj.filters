@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{258297f1-9008-4198-9986-f0c9baa48976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header Files">
+      <UniqueIdentifier>{09309e63-aa1c-4575-9039-18d07117dd48}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Engine\Source Files">
+      <UniqueIdentifier>{5c018932-9292-4bc8-b208-0f6abfd82c19}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{8604d6c4-a765-49b1-a002-206a1a123c5a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{363cf915-af38-49c7-bf52-98867f71cb27}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Feature Selection">
+      <UniqueIdentifier>{6079278d-33a6-4240-87f3-ff0198e1f9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Feature Selection\Header Files">
+      <UniqueIdentifier>{02831548-3a3f-4ab2-afe1-bd503833797b}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Feature Selection\Source Files">
+      <UniqueIdentifier>{dfa3c5e9-1c4d-43e8-b03a-90607f0efeee}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Oversampling">
+      <UniqueIdentifier>{107476a6-7cc8-451c-86dc-6ef1cd16dd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Oversampling\Header Files">
+      <UniqueIdentifier>{ce82a64c-4328-4cb0-9363-c7b864538c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Oversampling\Source Files">
+      <UniqueIdentifier>{37bab9ff-da17-464f-8c22-1dfa9584ebac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dimensionality reduction">
+      <UniqueIdentifier>{28169d99-ee8b-424c-ba94-28f5578de8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dimensionality reduction\Header Files">
+      <UniqueIdentifier>{f0814b8d-a77f-48f5-8e7b-4ab7cf292250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dimensionality reduction\Source Files">
+      <UniqueIdentifier>{3563c6b3-661a-482c-9737-9ef4372fa4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9ba82cfc-0a00-4cfd-ab0a-28ffa165415d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d8c7010e-c674-46f2-9e5d-0b0c1ba3c15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outlier detection">
+      <UniqueIdentifier>{44793363-dab6-4714-9fc5-ddfc68654344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outlier detection\Header Files">
+      <UniqueIdentifier>{666880b6-3295-449d-9edd-84849228a186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Outlier detection\Source Files">
+      <UniqueIdentifier>{7891176b-2f13-4a15-be1d-277036893af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Undersampling">
+      <UniqueIdentifier>{68354339-0d82-46f8-aec6-205a7fd76146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Undersampling\Header Files">
+      <UniqueIdentifier>{60da6ff0-3e03-4db1-96ec-5c4be67ba79c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Undersampling\Source Files">
+      <UniqueIdentifier>{959180ae-d1bc-4ec2-8315-f10451d44f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="MLAgent">
+      <UniqueIdentifier>{06ed002e-f197-41e5-8aad-09d71a4d909c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLAgent\Header Files">
+      <UniqueIdentifier>{2816002a-efc8-40a6-aa1b-0b3a89b25bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MLAgent\Source Files">
+      <UniqueIdentifier>{4a030e6a-2e5c-4eae-94fa-bbf2ffb8da6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patient Fold Generator">
+      <UniqueIdentifier>{3dd39247-856a-43c4-a0ba-44daece2b626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patient Fold Generator\Header File">
+      <UniqueIdentifier>{14293029-617c-4f60-be84-844f8d109483}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Patient Fold Generator\Source File">
+      <UniqueIdentifier>{0b0365d0-5edd-4346-a3cc-c00756c3b90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline Optimizer">
+      <UniqueIdentifier>{35ab1d63-f326-49ac-bab8-80f0438130fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline Optimizer\Header Files">
+      <UniqueIdentifier>{c8dffb08-df78-424d-8972-0c61aeb3f008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipeline Optimizer\Source Files">
+      <UniqueIdentifier>{62cad1eb-a8a6-4c51-8998-2ae1692136fc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AbstractTDPAction.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureSelection.h">
+      <Filter>Feature Selection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PCA.h">
+      <Filter>Dimensionality reduction\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CovarianceMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsolationForest.h">
+      <Filter>Outlier detection\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="batch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineTree.h">
+      <Filter>Pipeline Optimizer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CentralAi.h">
+      <Filter>Pipeline Optimizer\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractAnalytics.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractMLAgent.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractModel.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractOptimizer.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfusionMatrix.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfusionMatrixAnalytics.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTreeModel.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DecisionTreeOptimizer.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelDensityExtractor.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MLAgent.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MLAgentFactory.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestModel.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomForestOptimizer.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureSelector.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureKernel.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TabularDataFilter.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Oversampling.h">
+      <Filter>Oversampling\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PatientFoldGenerator.h">
+      <Filter>Patient Fold Generator\Header File</Filter>
+    </ClInclude>
+    <ClInclude Include="Undersampling.h">
+      <Filter>Undersampling\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineModel.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineAnalytics.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NelderMeadOptimizer.h">
+      <Filter>MLAgent\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMAnalytics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataOptimizer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Export.h">
+      <Filter>Engine\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FeatureSelection.cpp">
+      <Filter>Feature Selection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PCA.cpp">
+      <Filter>Dimensionality reduction\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CovarianceMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsolationForest.cpp">
+      <Filter>Outlier detection\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineTree.cpp">
+      <Filter>Pipeline Optimizer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CentralAi.cpp">
+      <Filter>Pipeline Optimizer\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForestModel.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomForestOptimizer.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractAnalytics.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractMLAgent.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractModel.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AbstractOptimizer.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfusionMatrix.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfusionMatrixAnalytics.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionTreeModel.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DecisionTreeOptimizer.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelDensityExtractor.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MLAgentFactory.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureSelector.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureKernel.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TabularDataFilter.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Oversampling.cpp">
+      <Filter>Oversampling\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatientFoldGenerator.cpp">
+      <Filter>Patient Fold Generator\Source File</Filter>
+    </ClCompile>
+    <ClCompile Include="Undersampling.cpp">
+      <Filter>Undersampling\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineAnalytics.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineModel.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NelderMeadOptimizer.cpp">
+      <Filter>MLAgent\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DataOptimizer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Evaluation.rc" />
+  </ItemGroup>
+</Project>
